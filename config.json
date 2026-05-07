@@ -1,0 +1,8 @@
+{
+  "ai_provider": "gemini",
+  "language": "zh",
+  "sources": [
+    "https://hnrss.org/frontpage",
+    "https://www.reddit.com/r/programming/.rss"
+  ]
+}
