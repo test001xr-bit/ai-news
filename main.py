@@ -76,9 +76,7 @@ def build_html(news):
 def main():
     news = fetch_news()
 
-    os.makedirs("output", exist_ok=True)
-
-    with open("output/index.html", "w", encoding="utf-8") as f:
+    with open("index.html", "w", encoding="utf-8") as f:
         f.write(build_html(news))
 
     print("done")
